@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Técnica Interativa</title>
+</head>
+<style>
+    p, blockquote {
+        width: 60%;
+    }
+</style>
+
+<body>
+
+    <!-- Index -->
+    <nav>
+        <ul>
+            <li><a href="#slide1">Introdução</a></li>
+            <li><a href="#slide2">História</a></li>
+            <li><a href="#slide3">Gráficos e Diagramas</a></li>
+            <li><a href="#slide4">Informações Expansíveis</a></li>
+            <li><a href="#slide5">Quiz Interativo</a></li>
+            <li><a href="#slide6">Galeria de Imagens</a></li>
+            <li><a href="#slide7">Glossário</a></li>
+            <li><a href="#slide8">Tabela de Conteúdo Aninhada</a></li>
+        </ul>
+    </nav><br>
+
+    <!-- Slide 1 -->
+    <section id="slide1">
+        <h1>Apresentação Técnica: <em>Inteligência Artificial e Machine Learning</em></h1>
+        <p>Bem-vindo à apresentação técnica interativa sobre <strong>Inteligência Artificial (IA) e Machine
+                Learning</strong>. Nesta apresentação, você
+            navegará por diferentes seções e descobrirá uma série de elementos interativos sobre o papel da IA em
+            diversas áreas e como o machine learning funciona.</p>
+    </section><br>
+
+    <!-- History -->
+    <section id="slide2">
+        <h2>História</h2>
+        <blockquote cite="https://pt.wikipedia.org/wiki/Inteligência_artificial">
+            O interesse no desenvolvimento de máquinas autônomas capazes de simular o pensamento humano e de realizar
+            varias tarefas cresceu vertiginosamente nas últimas décadas, da segunda metade do século XX, realizando
+            assim os primeiros estudos sobre inteligência artificial (IA) a um propósito comum, a partir de iniciativas
+            de cientistas de diversas áreas, como: psicologia, ciência cognitiva, ciência da computação e, robótica.
+        </blockquote>
+    </section><br>
+
+    <!-- Slide 2: Graphs and Diagrams -->
+    <section id="slide3">
+        <h2>Gráficos e Diagramas (ASCII)</h2>
+        <pre>
+            Nivel de Investimentos  Globais em dolares($)
+                                                                     +-------------+     +-------------+     +-------------+
+            2010 | ██████           60B$                             |             |     |  Algoritmos |     |             |
+            2015 | ██████████       120B$                 Início --- | Rede Neural | --- |     de      | --- | Conclusões  | --- Fim
+            2020 | █████████████    180B$                            |             |     |     ML      |     |             |
+            2025 | ███████████████  240B$                            +-------------+     +-------------+     +-------------+           
+    </pre>
+    </section><br>
+
+    <!-- Slide 3: Expandable Information -->
+    <section id="slide4">
+        <h2>Informações Expansíveis</h2>
+        <details>
+            <summary>Inteligência Artificial</summary>
+            <p>Refere-se à capacidade das máquinas de realizar tarefas que normalmente requerem inteligência humana. O
+                <strong>Machine Learning</strong> (ML) é um subcampo da IA, focado na criação de algoritmos que
+                permitem às máquinas aprenderem com dados.
+            </p>
+        </details>
+    </section><br>
+
+    <!-- Slide 4: Interactive Quiz -->
+    <section id="slide5">
+        <h2>Quiz Interativo</h2>
+        <form>
+            <label for="pergunta1">O que é Inteligência Artificial?</label><br>
+            <input type="text" id="pergunta1" name="pergunta1"><br><br>
+            <label for="pergunta2">Dê um exemplo de uso de Machine Learning.</label><br>
+            <input type="text" id="pergunta2" name="pergunta2"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section><br>
+
+    <!-- Slide 5: Image Gallery -->
+    <section id="slide6">
+        <h2>Galeria de Imagens</h2>
+        <figure>
+            <img src="/Static/Images/Esquema de uma Rede Neural.jpeg" alt="Rede Neural">
+            <figcaption><strong>Esquema de uma Rede Neural</strong></figcaption>
+        </figure>
+        <figure>
+            <img src="/Static/Images/Representação Gráfica de um Algoritmo de Machine Learning.png"
+                alt="Algoritmo de ML" width="700px" height="357px">
+            <figcaption><strong>Representação Gráfica de um Algoritmo de Machine Learning</strong></figcaption>
+        </figure>
+    </section><br>
+
+    <!-- Slide 6: Glossary -->
+    <section id="slide7">
+        <h2>Glossário</h2>
+        <dl>
+            <dt><strong>Inteligência Artificial (IA)</strong></dt>
+            <dd>Capacidade das máquinas de executar tarefas que requerem inteligência humana.</dd>
+            <dt><strong>Aprendizado de Máquina (ML)</strong></dt>
+            <dd>Subcampo da IA que envolve a criação de algoritmos capazes de aprender a partir de dados.</dd>
+            <dt><strong>Rede Neural</strong></dt>
+            <dd>Um modelo inspirado no funcionamento do cérebro humano, utilizado para resolver problemas complexos de
+                IA.</dd>
+        </dl>
+    </section><br>
+
+    <!-- Slide 7: Nested Table of Contents -->
+    <section id="slide8">
+        <h2>Tabela de Conteúdo Aninhada</h2>
+        <ul>
+            <li>Inteligência Artificial
+                <ul>
+                    <li>Machine Learning
+                        <ul>
+                            <li>Redes Neurais</li>
+                            <li>Algoritmos Supervisionados</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section><br>
+
+    <!-- Progress bar and meter -->
+    <section id="progress">
+        <h2>Progresso e Medição</h2>
+        <label for="progresso">Progresso da apresentação:</label>
+        <progress id="progresso" value="50" max="100"></progress><br>
+
+        <label for="metrica">Métrica de conclusão:</label>
+        <meter id="metrica" value="0.6">60%</meter>
+    </section><br><br>
+
+    <!-- User Feedback -->
+    <section>
+        <h2>Feedback sobre Apresentação</h2>
+        <form action="#" method="post">
+            <!-- Name -->
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+    
+            <!-- E-mail -->
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <!-- Classification -->
+            <label for="avaliacao">Como avaliaria a nossa apresentação?</label><br>
+            <select id="avaliacao" name="avaliacao" required>
+                <option value="excelente">Excelente</option>
+                <option value="bom">Bom</option>
+                <option value="regular">Regular</option>
+                <option value="ruim">Ma</option>
+            </select><br><br>
+    
+            <!-- Comentary -->
+            <label for="comentarios">Comentários adicionais:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Deixe os seus comentários aqui..."></textarea><br><br>
+    
+            <!-- Improvement Sugestion -->
+            <label for="sugestoes">Sugestões para melhoria:</label><br>
+            <textarea id="sugestoes" name="sugestoes" rows="4" cols="50" placeholder="Como podemos melhorar?"></textarea><br><br>
+    
+            <!-- Form submit -->
+            <input type="submit" value="Enviar Feedback">
+        </form>
+    </section>
+</body>
+
+</html>
